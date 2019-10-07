@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>
+            Pendaftaran
+        </title>
+        <link href="pendaftaran.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h2>Silahkan isi data berikut!!</h2>
+        <form>
+            <fieldset>
+                <legend>Infomasi Diri</legend>
+                <section>
+                    <p>
+                        <label for="full-name">Nama</label>
+                        <input id="full-name" name="FullName" type="text">
+                    </p>
+                </section>
+                <section>
+                    <form>
+                        <label for="gender">Jenis Kelamin</label>
+                        <input id="male-radio" type="radio" name="gender" value="male">
+                        <label for="male-radio">Pria</label>
+                        <input id="female-radio" type="radio" name="gender" value="female">
+                        <label for="female-radio">Wanita</label>
+                    </form>
+                </section>
+                <section>
+                    <p>
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email">
+                    </p>
+                </section>
+                <section>
+                    <p>
+                        <label for "address">Asal</label>
+                        <input type="text" name="address" list="provinceinindonesia">
+                        <datalist id="provinceinindonesia">
+                            <select name="altprovinceinindonesia">
+                                <option value="Jakarta">Jakarta</option>
+                                <option value="Jawa Barat">Bandung</option>
+                                <option value="Jawa Tengah">Semarang</option>
+                                <option value="Jawa Timur">Surabaya</option>
+                                <option value="Banten">Serang</option>
+                                <option value="Daerah Istimewa Yogyakarta">Yogyakarta</option>
+                            </select>
+                        </datalist>
+                    </p>
+                </section>
+                <section>
+                    <p>
+                        <label for="Telfon">Nomor Telfon</label>
+                        <input id="Telfon" name="Telfon" type="tel">
+                    </p>
+                </section>
+                <section>
+                    <form>
+                        <span>Apa Hobby Kamu?</span>
+                        <br>
+                        <input id="traveling-chechbox" type=checkbox name="hobbies" value="traveling">
+                        <label for="traveling-checkbox">Traveling</label>
+                        <input id="swimming-checkbox" type=checkbox name="hobbies" value="swimming">
+                        <label for="swimming-checkbox">Swimming</label>
+                        <input id="reading-checkbox" type=checkbox name="hobbies" value="reading">
+                        <label for="reading-checkbox">reading</label>
+                    </form>
+                </section>
+                <section>
+                    <laber for="amount">Seberapa inginkah anda ke Paris?</laber>
+                    <br>
+                    <span>Tidak Begitu Ingin</span>
+                    <input type="range" name="want" value="3" max="5">
+                    <span>Sangat Ingin</span>
+                </section>
+                <br>
+                <form action="halamansuksessubmit.html" method="post">
+                    <input type="submit" value="kirim"/>
+                </form>
+            </fieldset>
+        </form>
+    </body>
+    
+</html>

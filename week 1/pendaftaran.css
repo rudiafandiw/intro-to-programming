@@ -1,0 +1,12 @@
+body{
+    background-image: url(./eiffel.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    left: 0;
+    margin-top: -200px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}

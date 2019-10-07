@@ -1,0 +1,47 @@
+p {
+    color: orange;
+    text-align: justify;
+    text-indent: 1cm;
+  }
+  div p {
+    color: coral;
+  }
+
+h1{
+    color: maroon;
+}
+
+body{
+  background-color: blanchedalmond;
+}
+
+h3{
+  text-align: left;
+}
+
+h1{
+  text-align: center;
+}
+
+.mid{
+  text-align: center;
+}
+
+.topnav{
+  background-color: beige;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
